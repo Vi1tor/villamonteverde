@@ -543,8 +543,8 @@ const App: React.FC = () => {
       </a>
 
       <footer className="mt-20 px-6 py-12 text-center text-gray-400 text-sm">
-        <p>© 2024 Pousada Villa Monte Verde</p>
-        <p className="mt-2 text-xs uppercase tracking-widest">Experiência & Refúgio</p>
+        <p>© 2026 Pousada Villa Monte Verde</p>
+        <p className="mt-2 text-xs uppercase tracking-widest">Experiência & Conforto</p>
       </footer>
     </div>
   );
