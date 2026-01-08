@@ -472,14 +472,14 @@ const App: React.FC = () => {
 
       {/* Location Section */}
       <section className="px-6 mt-12 max-w-4xl mx-auto mb-12">
-        <div className="bg-zinc-700 rounded-2xl p-8 space-y-6">
+        <div className="bg-gradient-to-br from-slate-100 to-gray-100 dark:from-slate-800 dark:to-gray-800 rounded-2xl p-8 space-y-6 border border-gray-200 dark:border-gray-700 shadow-lg">
           {/* Title */}
-          <h2 className="font-serif text-3xl text-white flex items-center gap-3">
-            <span className="text-yellow-500 text-2xl">📍</span> Localização
+          <h2 className="font-serif text-3xl text-gray-800 dark:text-white flex items-center gap-3">
+            <span className="text-amber-500 text-2xl">📍</span> Localização
           </h2>
           
           {/* Address Info */}
-          <p className="text-gray-300">Pousada Villa Monte Verde, Av. Sol Nascente, 150</p>
+          <p className="text-gray-600 dark:text-gray-300">Pousada Villa Monte Verde, Av. Sol Nascente, 150</p>
           
           {/* Map Preview */}
           <div className="rounded-xl overflow-hidden w-full border border-gray-600 shadow-lg">
@@ -493,9 +493,9 @@ const App: React.FC = () => {
                 loading="lazy" 
               />
             </div>
-            <div className="bg-white p-3 text-gray-800 text-sm font-semibold flex items-center gap-2">
+            <div className="bg-white dark:bg-gray-900 p-3 text-gray-800 dark:text-gray-200 text-sm font-semibold flex items-center gap-2">
               <span>22°51'16.6"S 46°04'43.0"W</span>
-              <button className="ml-auto text-blue-600 hover:text-blue-700 font-semibold">Ver mapa ampliado</button>
+              <button className="ml-auto text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-500 font-semibold">Ver mapa ampliado</button>
             </div>
           </div>
           
@@ -524,20 +524,6 @@ const App: React.FC = () => {
               </svg>
               Ir para Villa Barril (Navegação)
             </a>
-          </div>
-
-          {/* Reception Contact */}
-          <div className="border-t border-gray-600 pt-6">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="text-yellow-500 text-2xl">📞</span>
-              <span className="text-gray-400 uppercase text-sm font-semibold tracking-wide">RECEPÇÃO</span>
-            </div>
-            <div className="space-y-2">
-              <p className="text-white font-bold text-lg">(35) 3438-2399</p>
-              <p className="text-white font-bold text-lg">(35) 9 9141-1913</p>
-              <p className="text-green-400 font-bold text-lg">WhatsApp: +55 (35) 3438-2399</p>
-            </div>
-            <p className="text-gray-500 text-xs mt-2">CEP: 37650-000</p>
           </div>
         </div>
       </section>
